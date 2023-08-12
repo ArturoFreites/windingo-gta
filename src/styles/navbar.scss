@@ -1,0 +1,51 @@
+nav{
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-logo{
+    width: 20%;
+    img{
+        width: 100px;
+        padding: 30px;
+    }
+}
+.nav-links{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    width: 70%;
+    a{
+        text-align: center;
+        padding-left: 20px;
+        color: white;
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: skew(20deg);
+        width: 120px;
+        p{
+            font-weight: 800;
+            font-size: large;
+        }
+    }
+}
+.nav-user{
+    width: 10%;
+    color: white;
+    display: flex;
+    div{
+        padding: 20px;
+        font-size: 30px;
+    }
+}
+
+.selected-link{
+    background-color: $rosa;
+}
