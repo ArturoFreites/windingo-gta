@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/react-flicking": "^4.11.0",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.15.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.65.1"
   },
   "devDependencies": {

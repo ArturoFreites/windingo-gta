@@ -1,5 +1,5 @@
 nav{
-    background-color: black;
+    background-color: $principal;
     height: 12vh;
     display: flex;
     flex-direction: row;
@@ -8,7 +8,7 @@ nav{
 .nav-logo{
     width: 20%;
     img{
-        width: 100px;
+        width: 140px;
         padding: 30px;
     }
 }
@@ -33,6 +33,8 @@ nav{
         p{
             font-weight: 800;
             font-size: large;
+            transform: skew(-20deg);
+            padding-right: 15px;
         }
     }
 }
@@ -47,5 +49,11 @@ nav{
 }
 
 .selected-link{
-    background-color: $rosa;
+    background-color: $principal1;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: $principal1;
 }
